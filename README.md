@@ -47,7 +47,8 @@ __all__ = [……此处添加,'DFUCDataset']
         return metrics
 
 6.模型集成
-使用tools文件夹中的model_ensemble_wAverage.py进行加权平均集成，使用model_ensemble_HB.py进行互补集成。
+使用tools文件夹中的model_ensemble_wAverage.py进行加权平均集成，使用model_ensemble_HB.py进行互补集成（需先自行计算权重）。
+运行代码在model_ensemble_wAverage.py和model_ensemble_HB.py结尾声明。
 
 
 
